@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CoolPals Bot</title>
+  <meta name="description" content="CoolPals Bot is a production Discord bot for welcome messages, auto roles, moderation, Minecraft tools, economy, and health monitoring.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="CoolPals Bot home">
+      <img class="brand-avatar" src="assets/bot-avatar.png" alt="CoolPals Bot avatar">
+      <span>CoolPals Bot</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#commands">Commands</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-background" aria-hidden="true">
+        <span>/welcome setup</span>
+        <span>/mc status</span>
+        <span>/ticket create</span>
+        <span>/economy daily</span>
+        <span>/health</span>
+      </div>
+      <div class="hero-content">
+        <img class="bot-logo" src="assets/bot-avatar.png" alt="CoolPals Bot avatar">
+        <p class="eyebrow">Production-ready Discord management</p>
+        <h1>CoolPals Bot</h1>
+        <p class="hero-copy">Welcome new members, manage roles, moderate your server, check Minecraft status, run economy tools, and keep your community organized.</p>
+        <div class="hero-actions">
+          <!-- Edit this href with your real Discord bot invite URL. -->
+          <a class="button primary" href="https://discord.com/oauth2/authorize?client_id=1519142525582053468&permissions=1099914407126&scope=bot%20applications.commands">Invite Bot</a>
+          <!-- Edit this href with your real support server invite URL. -->
+          <a class="button secondary" href="https://discord.gg/ycZ6UyHUmh">Support Server</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-inner">
+        <div class="section-heading centered">
+          <p class="eyebrow">Feature stack</p>
+          <h2>Built for active communities</h2>
+          <p>Everything a growing Discord server needs, organized into practical tools that feel fast to use.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="card-icon">01</span>
+            <h3>Welcome System</h3>
+            <p>Send polished welcome embeds with account age, avatar, member count, and custom server messaging.</p>
+          </article>
+          <article class="feature-card">
+            <span class="card-icon">02</span>
+            <h3>Auto Roles</h3>
+            <p>Assign configured roles to new members with safety checks for permissions and role hierarchy.</p>
+          </article>
+          <article class="feature-card">
+            <span class="card-icon">03</span>
+            <h3>Ticket System</h3>
+            <p>Create, claim, close, and log support tickets with staff-friendly server workflows.</p>
+          </article>
+          <article class="feature-card">
+            <span class="card-icon">04</span>
+            <h3>Minecraft Tools</h3>
+            <p>Check saved Minecraft Java servers with mcstatus-only status, player count, version, latency, and MOTD details.</p>
+          </article>
+          <article class="feature-card">
+            <span class="card-icon">05</span>
+            <h3>Moderation</h3>
+            <p>Handle warnings, timeouts, locks, slowmode, bans, kicks, member lookups, and logging.</p>
+          </article>
+          <article class="feature-card">
+            <span class="card-icon">06</span>
+            <h3>Economy</h3>
+            <p>Run balances, daily rewards, shops, inventory, transaction history, and staff audit logs.</p>
+          </article>
+          <article class="feature-card feature-card-wide">
+            <span class="card-icon">07</span>
+            <h3>Health Monitoring</h3>
+            <p>Inspect uptime, latency, SQLite, configured Minecraft servers, cogs, commands, and memory from one clean command.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section command-section" id="commands">
+      <div class="section-inner split-section">
+        <div class="section-heading">
+          <p class="eyebrow">Command showcase</p>
+          <h2>Useful slash commands</h2>
+          <p>Commands are grouped, discoverable, and built for real moderation and server workflows.</p>
+        </div>
+        <div class="command-grid" aria-label="Command examples">
+          <code>/help</code>
+          <code>/ticket</code>
+          <code>/mc</code>
+          <code>/whois</code>
+          <code>/lock</code>
+          <code>/unlock</code>
+          <code>/economy</code>
+        </div>
+      </div>
+    </section>
+
+    <section class="section update-section" id="updates">
+      <div class="section-inner update-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Latest update</p>
+          <h2>v5.0.2 Minecraft status patch</h2>
+          <p>CoolPals Bot now uses async mcstatus checks for Minecraft status commands, with safer diagnostics and no hosting panel API calls.</p>
+        </div>
+        <div class="update-grid" aria-label="Latest release details">
+          <div class="update-card">
+            <span class="stat-label">Build</span>
+            <strong>mcstatus-timeout-logging</strong>
+          </div>
+          <div class="update-card">
+            <span class="stat-label">Minecraft</span>
+            <strong>Async status</strong>
+          </div>
+          <div class="update-card">
+            <span class="stat-label">Timeout</span>
+            <strong>15 seconds</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats-section">
+      <div class="section-inner">
+        <div class="section-heading centered">
+          <p class="eyebrow">Bot statistics</p>
+          <h2>Runtime snapshot</h2>
+          <p>Use `/health` inside Discord for live values. The public site keeps the snapshot simple and deployment-friendly.</p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-label">Online Status</span>
+            <strong data-stat="status">Ready</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Latency</span>
+            <strong data-stat="latency">Live in bot</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Servers</span>
+            <strong data-stat="servers">Growing</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Users</span>
+            <strong data-stat="users">Community</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>CoolPals Bot v5.0.2</span>
+    <nav aria-label="Footer navigation">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
