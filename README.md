@@ -1,0 +1,1 @@
+# CoolPals-Bot
