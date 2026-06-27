@@ -1,11 +1,11 @@
 {
-  "version": "v5.3.1",
-  "title": "v5.3.1 Community Suite",
-  "summary": "Reaction Roles is now part of the Information category in the official setup layout. /setup force now reuses and moves an existing reaction-role channel instead of creating a duplicate. Reaction role panel repair now targets the Information reaction-role channel.",
+  "version": "v5.4.0",
+  "title": "v5.4.0 Music System",
+  "summary": "Added a full Discord music system with play, queue, search, playlists, controls, autoplay, and per-server settings. Added Discord.py voice dependency support so the live bot can join voice channels for playback. Music commands now appear in their own /help category.",
   "cards": {
-    "build": "reaction-roles-information",
+    "build": "music-system-production",
     "autoUpdates": "Startup announcements",
-    "setup": "Information category",
-    "commit": "Move reaction roles into information"
+    "setup": "Release synced",
+    "commit": "Launch production Discord music system"
   }
 }
