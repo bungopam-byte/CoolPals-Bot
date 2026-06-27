@@ -1,0 +1,11 @@
+{
+  "version": "v5.3.1",
+  "title": "v5.3.1 Community Suite",
+  "summary": "Reaction Roles is now part of the Information category in the official setup layout. /setup force now reuses and moves an existing reaction-role channel instead of creating a duplicate. Reaction role panel repair now targets the Information reaction-role channel.",
+  "cards": {
+    "build": "reaction-roles-information",
+    "autoUpdates": "Startup announcements",
+    "setup": "Information category",
+    "commit": "Move reaction roles into information"
+  }
+}

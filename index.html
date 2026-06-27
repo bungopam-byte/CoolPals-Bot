@@ -114,21 +114,25 @@
       <div class="section-inner update-panel">
         <div class="section-heading">
           <p class="eyebrow">Latest update</p>
-          <h2>v5.0.3 cleanup patch</h2>
-          <p>CoolPals Bot cleaned up stale runtime config, removed unused diagnostic files, and kept Minecraft status on the mcstatus-only path.</p>
+          <h2 data-release="title">v5.3.1 Community Suite</h2>
+          <p data-release="summary">Reaction Roles now lives in the Information category, setup repair reuses the existing panel, and automatic update announcements stay available for configured Discord channels.</p>
         </div>
         <div class="update-grid" aria-label="Latest release details">
           <div class="update-card">
             <span class="stat-label">Build</span>
-            <strong>cleanup-audit</strong>
+            <strong data-release-card="build">reaction-roles-information</strong>
           </div>
           <div class="update-card">
-            <span class="stat-label">Minecraft</span>
-            <strong>Async status</strong>
+            <span class="stat-label">Auto updates</span>
+            <strong data-release-card="autoUpdates">Startup announcements</strong>
           </div>
           <div class="update-card">
-            <span class="stat-label">Timeout</span>
-            <strong>15 seconds</strong>
+            <span class="stat-label">Setup layout</span>
+            <strong data-release-card="setup">Information category</strong>
+          </div>
+          <div class="update-card">
+            <span class="stat-label">Latest commit</span>
+            <strong data-release-card="commit">Move reaction roles into information</strong>
           </div>
         </div>
       </div>
@@ -164,7 +168,7 @@
   </main>
 
   <footer class="site-footer">
-    <span>CoolPals Bot v5.0.3</span>
+    <span data-release="footer">CoolPals Bot v5.3.1</span>
     <nav aria-label="Footer navigation">
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Service</a>
