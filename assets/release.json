@@ -1,11 +1,11 @@
 {
-  "version": "v5.4.0",
-  "title": "v5.4.0 Music System",
-  "summary": "Added a full Discord music system with play, queue, search, playlists, controls, autoplay, and per-server settings. Added Discord.py voice dependency support so the live bot can join voice channels for playback. Music commands now appear in their own /help category.",
+  "version": "v5.4.29",
+  "title": "v5.4.29 Music System",
+  "summary": "Added a full Discord music system with play, queue, search, playlists, controls, autoplay, and per-server settings. Changed the default text search provider to YouTube Music so /play starts from music-focused results. Added the last Lavalink playback error to /music diagnose for faster troubleshooting.",
   "cards": {
-    "build": "music-system-production",
+    "build": "music-potoken-client-support",
     "autoUpdates": "Startup announcements",
     "setup": "Release synced",
-    "commit": "Launch production Discord music system"
+    "commit": "Add secure Lavalink poToken client support"
   }
 }
